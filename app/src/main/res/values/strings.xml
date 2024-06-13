@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecylerView B</string>
+    <string name="total_mahasiswa">Total Mahasiswa:</string>
+    <string name="record_baru">Record Baru</string>
+    <string name="gender">Gender</string>
+    <string name="nama">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="_1">1.</string>
+    <string name="ti">TI</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+</resources>
