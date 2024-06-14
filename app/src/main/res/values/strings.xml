@@ -1,11 +1,33 @@
 <resources>
     <string name="app_name">RecylerView B</string>
-    <string name="total_mahasiswa">Total Mahasiswa:</string>
-    <string name="record_baru">Record Baru</string>
-    <string name="gender">Gender</string>
+    <string name="simpan">Simpan</string>
+    <string name="tahun_masuk">Tahun Masuk</string>
+    <string name="status_pernikahan">Status Pernikahan</string>
+    <string name="jurusan_prodi">Jurusan / Prodi</string>
+    <string name="alamat">Alamat</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="tempat_lahir">Tempat Lahir</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
     <string name="nama">Nama</string>
     <string name="nim">NIM</string>
-    <string name="_1">1.</string>
+    <string name="mahasiswa_baru">Mahasiswa Baru</string>
+    <string name="total_mahasiswa">Total Mahasiswa</string>
+    <string name="record_baru">Record Baru</string>
+    <string name="_1">1</string>
+    <string name="gender">Gender</string>
     <string name="ti">TI</string>
-    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string-array name="jenisKelaminArray">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="jpArray">
+        <item>SI/SI</item>
+        <item>TI/TI</item>
+    </string-array>
+    <string-array name="statusNikahArray">
+        <item>Belum Menikah</item>
+        <item>Menikah</item>
+        <item>Duda</item>
+        <item>Janda</item>
+    </string-array>
 </resources>

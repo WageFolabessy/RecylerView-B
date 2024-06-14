@@ -33,8 +33,21 @@ public class MainActivity extends AppCompatActivity {
         _recyclerView = findViewById(R.id.recyclerView1);
         _txtMahasiswaCount = findViewById(R.id.txtMahasiswaCount);
 
-        // initAddButton();
+        initAddButton();
         loadRecylerView();
+    }
+
+    private void initAddButton() {
+        _addButton = findViewById(R.id.addButton);
+
+        _addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), AddMahasiswaActivity.class);
+                startActivity(intent);
+                loadRecylerView();
+            }
+        });
     }
 
     private void loadRecylerView() {
@@ -64,18 +77,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-//    private void initAddButton() {
-//        _addButton = findViewById(R.id.);
-//        _addButton.setOnClickListener(new View.OnClickListener(){
-//
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getApplicationContext(), AddMahasiswaActivity.class);
-//                startActivity(intent);
-//
-//                loadRecylerView();
-//            }
-//        });
-//    }
 }
