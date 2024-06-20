@@ -16,6 +16,7 @@
     <string name="_1">1</string>
     <string name="gender">Gender</string>
     <string name="ti">TI</string>
+    <string name="refresh_button">Refresh Button</string>
     <string-array name="jenisKelaminArray">
         <item>Laki-laki</item>
         <item>Perempuan</item>

@@ -17,6 +17,11 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaHolder> {
         this._mahasiswaModelList = mahasiswaModelList;
     }
 
+    public void filter(List<MahasiswaModel> filteredList){
+        this._mahasiswaModelList = filteredList;
+        notifyDataSetChanged();
+    }
+
     @NonNull
     @Override
     public MahasiswaHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
